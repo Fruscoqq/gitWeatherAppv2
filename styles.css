@@ -1,0 +1,32 @@
+body {
+  background: #FCF7F8;
+  letter-spacing: 0.2em;
+  font-size: 0.8em;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 400px;
+}
+
+.icon {
+  position: relative;
+  top: -50px;
+  border-radius: 50%;
+  width: 100%;
+  margin-bottom: -50px;
+  
+}
+
+.box {
+  z-index: -1;
+  position: relative;
+  left: 180px;
+  top: -200px;
+  margin-bottom: -200px;
+  transform: rotate(30deg);
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background: rgba(42, 130, 230, 0.192);
+}
