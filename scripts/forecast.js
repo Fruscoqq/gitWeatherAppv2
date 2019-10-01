@@ -34,8 +34,8 @@ const key = '24xCzGJAqEeox0zO1luIzvDI9EPAW0XW';
 class Forecast {
   constructor() {
     this.key = '24xCzGJAqEeox0zO1luIzvDI9EPAW0XW';
-    this.cityURI = 'http://dataservice.accuweather.com/locations/v1/cities/search';
-    this.weatherURI = 'http://dataservice.accuweather.com/currentconditions/v1/';
+    this.cityURI = 'https://dataservice.accuweather.com/locations/v1/cities/search';
+    this.weatherURI = 'https://dataservice.accuweather.com/currentconditions/v1/';
   }
   async getCity(city) {
     const query = `?apikey=${this.key}&q=${city}`;
